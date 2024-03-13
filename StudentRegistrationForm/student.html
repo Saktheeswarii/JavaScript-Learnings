@@ -1,1 +1,58 @@
+<!--To create a student resgistration form for different courses and storing it in the result table form and performing actions like adding and deleting the information-->
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Form</title>
+</head>
+<body>
+    <script src="studentscript.js"></script>
+    <h1>STUDENT FORM</h1>
+    <table border="1" id="input">
+        <tr>
+            <td><b>Name</b></td>
+            <td><input type="text" id="name"></td>
+        </tr>
+        <tr>
+            <td><b>Age</b></td>
+            <td><input type="number" id="age"></td>
+        </tr>
+        <tr>
+            <td><b>Gender</b></td>
+            <td><input type="radio" name="gender" value="Male" id="male"> Male
+                <input type="radio" name="gender" value="Female" id="female"> Female
+                </td>
+        </tr>
+        <tr>
+            <td><b>Course</b></td>
+            <td><select id="course">
+                <option value=""></option>
+                <option value="c">C</option>
+                <option value="cplus">C++</option>
+                <option value="java">Java</option>
+                <option value="py">Python</option>
+                <option value="sql">SQL</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">Javascript</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><b>E-Mail</b></td>
+            <td><input type="email" id="email"></td>
+        </tr>
+    </table>
+    <br><button onclick="update()">Save</button><br>
+    <br>
+    <table border="2" id="res">
+        <tr>
+            <td><b>Name</b></td>
+            <td><b>Age</b></td>
+            <td><b>Gender</b></td>
+            <td><b>Course</b></td>
+            <td><b>E-Mail</b></td>
+            <td><b>Action</b></td>
+        </tr>
+    </table>
+</body>
+</html>
