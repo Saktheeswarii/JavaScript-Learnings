@@ -1,11 +1,9 @@
-const person={
-    name : "xyz",
-    age:12,
-    location : ["xx","yy"],
-    isprogrammer : true,
+const car={
+    type : "Benz",
+    model : "xz",
+    color : "red",
 };
-console.log(person.name);
-console.log(person.age);
-console.log(person.location[0]);
-console.log(person.location[1]);
-console.log(person.isprogrammer); 
+console.log(typeof(car));
+car.type="Toyota";
+car.wheels="4wheels";
+console.log(car);
