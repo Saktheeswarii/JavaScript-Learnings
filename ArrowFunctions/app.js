@@ -40,13 +40,13 @@ console.log(operations(15,3));
 setTimeout(() => {
     console.log("Hello");
     setTimeout(() => {
-      console.log("Hey");
+      console.log("Hi");
       setTimeout(() => {
         console.log("Namaste");
         setTimeout(() => {
           console.log("Hi");
           setTimeout(() => {
-            console.log("Bonjour");
+            console.log("Gud mrng");
           }, 2000);
         }, 2000);
       }, 2000);
