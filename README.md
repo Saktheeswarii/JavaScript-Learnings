@@ -1,10 +1,10 @@
-# JavaScript Hands-On Practice Repository
+## JavaScript Hands-On Practice Repository
 
-# Description:
+### Description:
 Welcome to my JavaScript hands-on practice repository! 🎉
 As a beginner in JavaScript, I'm thrilled to share the simple tasks I've completed while getting hands-on experience with the language. This repository is dedicated to basic scripts that I've written to reinforce my understanding of JavaScript concepts through practical application.
 
-# JavaScript Learning Topics Covered in This Repository:
+### JavaScript Learning Topics Covered in This Repository:
 
 * Variables: Explore how to declare and use variables to store data in your programs.
 
